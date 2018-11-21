@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.actitime.genericlib.CC">
+        <methods>
+          <include name="configAc"/>
+          <include name="configAS"/>
+          <include name="cctest"/>
+          <include name="configBs"/>
+          <include name="configBC"/>
+          <include name="configAm"/>
+          <include name="configBm"/>
+        </methods>
+      </class> <!-- com.actitime.genericlib.CC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
